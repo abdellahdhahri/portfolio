@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styletest.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <body>
+
+        <div class="quizz">
+            <div class="header">1. Quelle est la balise HTML pour mettre en gras du texte?
+            </div>
+            <input type="radio" name="question1">nav<br>
+            <input type="radio" name="question1">bold
+            <br>
+            <input type="radio" name="question1" id="correct1">strong
+            <br>
+            <input type="radio" name="question1">gras<br>
+            <button class="next" onclick="next(1)">next</button>
+
+        </div>
+        <div class="quizz">
+            <div class="header">2. Quelle est la balise HTML pour créer un lien hypertexte?
+
+            </div>
+            <input type="radio" name="question2">br<br>
+            <input type="radio" name="question2">h1<br>
+            <input type="radio" name="question2" id="correct2">a<br>
+            <input type="radio" name="question2">href<br>
+            <button class="next" onclick="next(2)">next</button>
+
+        </div>
+
+        </div>
+        <div class="quizz">
+            <div class="header">3. Quelle est la propriété CSS pour modifier la taille d'une police?
+            </div>
+            <input type="radio" name="question2">font<br>
+            <input type="radio" name="question3">style<br>
+            <input type="radio" name="question3">style<br>
+            <input type="radio" name="question3" id="correct3">font-size<br>
+            <button class="next" onclick="next(3)">next</button>
+        </div>
+        <div class="quizz">
+            <div class="header">4. Comment sélectionnez-vous un élément HTML avec jQuery?
+
+            </div>
+            <input type="radio" name="question4" id="correct4">$(selector)<br>
+            <input type="radio" name="question4">+(selector)<br>
+            <input type="radio" name="question4">/(selector)<br>
+            <button class="next" onclick="next(4)">next</button>
+        </div>
+        <div class="quizz">
+            <div class="header">5. Quelle est la syntaxe de base pour créer une fonction en JavaScript?
+
+            </div>
+            <input type="radio" name="question5"> function nomFonction()
+            <br>
+            <input type="radio" name="question5">function nomFonction { // code }()
+            <br>
+            <input type="radio" name="question5" id="correct5"> function nomFonction() { // code }
+
+            <br>
+            <button class="next" onclick="next(5)">next
+            </button>
+        </div>
+        <div class="quizz">
+            <div class="header">6.le HTML est une language de programmation?
+            </div>
+            <input type="radio" name="question6">oui<br>
+            <input type="radio" name="question6" id="correct6">non<br>
+            <button class="next" onclick="next(6)">next</button>
+        </div>
+        <div class="quizz">
+            <div class="header">7. Quelle est la propriété CSS pour modifier la couleur de fond?
+
+            </div>
+            <input type="radio" name="question7">color<br>
+            <input type="radio" name="question7" id="correct7">background-color<br>
+
+
+
+            <button class="next" onclick="next(7)">next</button>
+        </div>
+        <div class="quizz">
+            <div class="header">8. Quelle est la méthode JavaScript pour afficher une boîte de dialogue?
+            </div>
+
+            <input type="radio" name="question8">document.alert()<br>
+            <input type="radio" name="question8" id="correct8">window.alert()<br>
+            <button class="next" onclick="next(8)">next</button>
+        </div>
+        <div class="quizz">
+            <div class="header">9. Quelle est la propriété CSS pour modifier la couleur des textes?
+
+            </div>
+
+            <input type="radio" name="question9" id="correct9">Cascading Style Sheets.<br>
+            <input type="radio" name="question9">customeised style sheets.<br>
+
+            <button class="next" onclick="next(9)">next</button>
+        </div>
+        <div class="quizz">
+            <div class="header">10. Comment puis-je cacher un élément dans CSS ?
+
+            </div>
+            <input type="radio" name="question10">display:hide;<br>
+
+            <input type="radio" name="question10" id="correct10">display:none;<br>
+
+            <button class="next" onclick="next(10)">next</button>
+        </div>
+        <div class="quizz">
+            <div class="header">11. Comment puis-je aligner un texte à gauche dans CSS ?
+
+            </div>
+            <input type="radio" name="question11">text-direction:left;<br>
+            <input type="radio" name="question11" id="correct11">text-align:left;<br>
+            <input type="radio" name="question2">text-decoration:left;<br>
+
+            <button class="next" onclick="next(11)">next</button>
+        </div>
+        <div class="quizz">
+            <div class="header">12. Comment puis-je ajouter une animation à un élément dans CSS ?
+
+            </div>
+
+            <input type="radio" name="question12" id="correct12">animation: nom-animation durée type-de-répétition;<br>
+            <input type="radio" name="question12">translation: nom animation durée<br>
+
+            <button class="next" onclick="next(12)">next</button>
+        </div>
+        <div class="quizz">
+            <div class="header">13.javascript est une language de programmation? </div>
+
+            <input type="radio" name="question13">non<br>
+            <input type="radio" name="question13" id="correct13">oui<br>
+
+            <button class="result" onclick="next(13)">non</button>
+        </div>
+        <div class="quizz">
+            <div class="header">14.en utilise le HTML dans le developpement des</div>
+
+            <input type="radio" name="question14">applications<br>
+            <input type="radio" name="question14" id="correct14">develoopement web<br>
+            <input type="radio" name="question14">les deux<br>
+            <button class="result" onclick="next(14)">next</button>
+        </div>
+        <div class="quizz">
+            <div class="header">15.pour modifier le type de police dans le css en utilise</div>
+
+            <input type="radio" name="question15" id="correct15">font-family<br>
+            <input type="radio" name="question15">font-size<br>
+            <input type="radio" name="question15">font<br>
+            <button class="result" onclick="result()">resultat</button>
+
+
+
+
+
+
+
+
+            <a href="index.html"><button onclick="">revenir a la page d'acceuil</button></a>
+        </div>
+        </section>
+
+        <script>
+
+            //displayiing the first block of question
+            document.getElementsByClassName('quizz')[0].style.display = "block";
+
+            //defining the next function
+            function next(id) {
+                document.getElementsByClassName('quizz')[id - 1].style.display = "none";
+                document.getElementsByClassName('quizz')[id].style.display = "block";
+
+            }
+            //getting final result
+            function result() {
+                var res = 0;
+                if (document.getElementById('correct1').checked) {
+                    res++;
+                }
+                if (document.getElementById('correct2').checked) {
+                    res++;
+                }
+                if (document.getElementById('correct3').checked) {
+                    res++;
+                }
+                if (document.getElementById('correct4').checked) {
+                    res++;
+                }
+
+
+
+                if (document.getElementById('correct5').checked) {
+                    res++;
+                }
+
+                if (document.getElementById('correct6').checked) {
+                    res++;
+                }
+
+                if (document.getElementById('correct7').checked) {
+                    res++;
+                }
+
+                if (document.getElementById('correct8').checked) {
+                    res++;
+                }
+
+                if (document.getElementById('correct9').checked) {
+                    res++;
+                }
+                if (document.getElementById('correct10').checked) {
+                    res++;
+                }
+
+                if (document.getElementById('correct11').checked) {
+                    res++;
+                }
+
+                if (document.getElementById('correct12').checked) {
+                    res++;
+                }
+                if (document.getElementById('correct13').checked) {
+                    res++;
+                }
+
+                if (document.getElementById('correct14').checked) {
+                    res++;
+                }
+
+                if (document.getElementById('correct15').checked) {
+                    res++;
+                }
+
+
+                alert("votre score est :" + res );
+                
+            }
+
+
+
+        </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,128 @@
+
+
+
+
+:root{
+    --primarycolor :#ff2740;
+    --secondarycolor:#f7bcf7;
+    --lightcolor:#ffffff;
+    --bgcolor-1:#04273e; 
+    --bgcolor-2:#22282a;
+    --padding:8%;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+html{
+    font-family: sans-serif;
+    color: var(--lightcolor);
+    background-color: var(--bgcolor-1);
+}
+.about {
+    
+    
+    background-color: var(--bgcolor-2);
+    padding: 2rem var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about .containerimg{
+    width: 35%;
+}
+.about .containerimg img{
+    width: 90%;
+}
+.about .containertext {
+    width: 80%;
+    
+    
+}
+.services {
+    margin: 25px;
+    background-color: var(--bgcolor-1);
+    padding: 3rem var(--padding);
+}
+.textcenter{
+    text-align: center;
+}
+.box{
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+.box :hover{
+    transform: scale(1.2);
+}
+.gafsa{
+    transition: 0.4s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    width: 120px;
+    background-color: var(--bgcolor-2);
+    border-radius: 20px;
+    padding: 2.5rem 2.5rem;
+    text-align: center;
+    padding: var(--padding);
+    margin: 1.5rem;
+}
+.gafsa i{
+    font-size: 3.12rem;
+    text-align: center;
+    color: var(--primarycolor);
+    margin: 2rem;
+    border-radius:  25% 10%;;
+}
+nav{
+   
+    padding: 2.8rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    
+align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+    
+
+}
+span{
+    color: var(--primarycolor);
+    }
+nav ul li a {
+    text-decoration: none;
+    color:var(--lightcolor);
+    text-transform: capitalize;
+ transition: 0.4s;
+
+}
+nav ul li a:hover{
+    color: var(--primarycolor);
+}
+
+.button{
+    background-color: var(--primarycolor);
+    color: var(--lightcolor);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.01rem 1.87rem;
+    border-radius: 30px;
+    transition: 0.4s ;
+    border: 2px solid transparent;
+
+}
+span{
+    padding: 16px;
+}
+h1{
+    padding-bottom: 20px;
+}
